@@ -77,12 +77,54 @@
 // }
 
 
-let age = 100
+// let age = 100
 
-if(age < 100){
-    console.log("sorry, you are not old enough")
-} else if(age === 100) {
-    console.log("congrats here is your card")
-} else { 
-    console.log("you are not eledgible you already have one")
-}
+// if(age < 100){
+//     console.log("sorry, you are not old enough")
+// } else if(age === 100) {
+//     console.log("congrats here is your card")
+// } else { 
+//     console.log("you are not eledgible you already have one")
+// }
+
+// console.log(4 === 3)
+// console.log(5 > 2)
+// console.log(12 > 12)
+// console.log(3 < 0)
+// console.log(3 >= 3)
+// console.log(11 <= 11)
+// console.log(3 <= 2)
+
+// let thingsLearned = [
+//     "Learned how to do html",
+//     "Learned hot to construct css",
+//     "Now we are learning how to do Java Script"
+// ]
+// console.log(thingsLearned[1])
+// console.log(thingsLearned[2])
+// console.log(thingsLearned[0])
+// array index always starts at 0
+
+// let kenny = ["Kenny Cooper", 34, true]
+
+// let cards = [7, 4]
+
+// cards.push(6)
+
+// console.log(cards)
+
+// let messages = [
+//     "Hey, how's it going?",
+//     "I'm great, thank you! How about you?",
+//     "All good. Been working on my portfolio lately."
+// ]
+
+// let newMessage = "Same here!"
+
+// messages.push(newMessage)
+
+// console.log(messages)
+
+// messages.pop()
+
+// console.log(messages)
