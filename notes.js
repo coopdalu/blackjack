@@ -128,3 +128,101 @@
 // messages.pop()
 
 // console.log(messages)
+
+
+//    Start          FINISH      STEP SIZE
+// for (let count = 10; count < 21; count += 1){
+
+//     console.log(count)
+
+// }
+
+// for (let i = 10; i < 101; i += 10){
+// console.log(i)
+// }
+
+// let cards = [7,3,9]
+
+// for ( let i = 0; i < cards.length;i += 1){
+//     console.log(cards[i])
+// }
+// get rid of the spaces behind each word in the array then add " " example: sentence[i]+ " " to readd the space between words
+// let sentence = ["hello ", "my ", "name ", "is ", "Kenny "]
+// let greetingEl = Document.getElementById("greeting-el")
+
+// for (let i = 0; i<sentence.length; i+=1){
+//     greetingEl.textContent += sentence[i]
+// }
+
+//ctrl+d(multiple select)
+
+// let player1Time = 102
+// let player2Time = 107
+
+// function getFastestRaceTime(){
+//     if (player1Time < player2Time) {
+//         return player1Time
+//     } else if(player2Time < player1Time) {
+//         return player2Time
+//     } else {
+//         return player1Time
+//     }
+// }
+
+// let fastestRace = getFastestRaceTime()
+// console.log(fastestRace)
+
+// let randomNumber = Math.random()*6
+// console.log(randomNumber)
+
+//what is Math.random() do?
+//the Math.random() method returns a random floating point number between 0 (inclusive) and 1 (exclusive).
+
+//0.31942299547341
+//MAth.random() and Math.floor() are both case sensitive
+// let flooredNumber = Math.floor(Math.random()*6)+1
+// console.log(flooredNumber)
+
+// function rollDice(){
+//  let randomNumber = Math.floor(Math.random()*6)+1
+//     return randomNumber
+// }
+
+// let hasCompleteCourse = true
+// let giveCertificate = true
+// if(hasCompletedCourse === true && giveCertificate === true){
+//     generateCertificate()
+// }
+
+// function generateCertificate(){
+//     console.log("Generating certificate....")
+// }
+
+// let hasSolvedChallenge = false
+// let hasHintLeft = false
+
+// if(hasSolvedChallenge === false && hasHintLeft === false){showSolution()}
+
+// function showSolution(){
+//     console.log("Showing the solution...")
+// }
+
+// let likesDocumentaries = true
+// let likesStartups = false
+// // || is "or"  while && is "and"
+// if(likesDocumentaries === true || likesStartups===true){
+//     recommendMovie()
+// }
+
+// function recommendMovie(){
+//     console.log("Hey here is a movie you may like...")
+// }
+
+// let airbnb = {
+//     isAvailable = true ,
+//     name: "Pocono Castle",
+//     price: 432,
+//     location: ["Stroudsburg", "Pennsylvania"]
+// }
+// console.log(airbnb.name)
+// console.log(airbnb.price)
